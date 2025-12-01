@@ -1,0 +1,5 @@
+# Redirects para React Router en Netlify
+# Todas las rutas deben redirigir al index.html para que React Router funcione
+
+/*    /index.html   200
+
