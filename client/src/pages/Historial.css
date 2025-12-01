@@ -1,0 +1,58 @@
+.historial-header {
+  margin-bottom: 2rem;
+}
+
+.historial-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.historial-subtitle {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.filtros {
+  margin-bottom: 2rem;
+}
+
+.filtros h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.liquidaciones-list h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.sin-resultados {
+  text-align: center;
+  padding: 3rem;
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.table tfoot {
+  background-color: #f9fafb;
+}
+
+.table tfoot td {
+  border-top: 2px solid #e5e7eb;
+  padding-top: 1rem;
+}
+

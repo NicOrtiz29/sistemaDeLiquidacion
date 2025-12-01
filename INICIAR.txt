@@ -1,0 +1,47 @@
+═══════════════════════════════════════════════════════════
+   🚀 CÓMO INICIAR EL SISTEMA
+═══════════════════════════════════════════════════════════
+
+1️⃣ ABRE DOS TERMINALES
+
+2️⃣ TERMINAL 1 - BACKEND:
+   cd "/Users/nico/Copia Xubio"
+   npm run dev
+   
+   Deberías ver:
+   🚀 Servidor corriendo en puerto 5001
+   📊 Sistema de Liquidación de Sueldos iniciado
+   ✅ Base de datos inicializada correctamente
+
+3️⃣ TERMINAL 2 - FRONTEND:
+   cd "/Users/nico/Copia Xubio"
+   npm run client
+   
+   Deberías ver:
+   Compiling...
+   webpack compiled successfully
+   Y se abrirá automáticamente http://localhost:3000
+
+4️⃣ ABRE EL NAVEGADOR:
+   http://localhost:3000
+
+═══════════════════════════════════════════════════════════
+   ⚠️  SI HAY PROBLEMAS:
+═══════════════════════════════════════════════════════════
+
+❌ Error: puerto ocupado
+   → El puerto cambió a 5001 (antes era 5000)
+   → Ya está configurado automáticamente
+
+❌ Error: no encuentra módulos
+   → Ejecuta: npm install
+   → Luego: cd client && npm install
+
+❌ El servidor no inicia
+   → Revisa los mensajes de error en la terminal
+   → Asegúrate de estar en el directorio correcto
+
+═══════════════════════════════════════════════════════════
+
+¡Listo! El sistema debería funcionar ahora 🎉
+

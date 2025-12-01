@@ -1,0 +1,3 @@
+# Este archivo asegura que el directorio data existe en git
+# La base de datos se creará automáticamente aquí
+
