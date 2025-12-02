@@ -1,4 +1,5 @@
 # Configuración de Netlify para el Sistema de Liquidación de Sueldos
+# Deploy automático desde GitHub configurado
 
 [build]
   # Directorio base del proyecto
@@ -9,6 +10,9 @@
   
   # Directorio donde está el build final
   publish = "client/build"
+  
+  # Variables de entorno (configurar en Netlify Dashboard)
+  # REACT_APP_API_URL = "https://us-central1-sistema-liquidacion-sueldos.cloudfunctions.net/api/api"
 
 # Configuración de redirects para React Router (SPA)
 [[redirects]]
