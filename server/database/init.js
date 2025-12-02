@@ -1,8 +1,14 @@
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
 const fs = require('fs');
+const os = require('os');
 
-const dbPath = path.join(__dirname, '../data/liquidacion.db');
+// En Firebase Functions, usar /tmp (único directorio escribible)
+// En desarrollo local, usar server/data
+const isFirebase = process.env.FUNCTIONS_EMULATOR || process.env.FIREBASE_CONFIG;
+const dbPath = isFirebase 
+  ? path.join(os.tmpdir(), 'liquidacion.db')
+  : path.join(__dirname, '../data/liquidacion.db');
 
 // Asegurar que el directorio existe
 const dbDir = path.dirname(dbPath);
